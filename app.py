@@ -167,7 +167,7 @@ def qna_answer(question = "When was RoboRaid launched?"):
         conn = http.client.HTTPSConnection('video-analyzer.azurewebsites.net')
         conn.request(
             "POST", 
-            "/qnamaker/knowledgebases/12b5fb54-6b82-4e43-b23c-b34397a7f0d7/generateAnswer",
+            "/qnamaker/knowledgebases/6123d042-c877-458d-8770-2feb34da05b3/generateAnswer",
             json_data,
             headers
         )
